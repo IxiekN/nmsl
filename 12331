@@ -1,0 +1,11 @@
+mport webbrowser
+
+def open_chrome(url):
+    chrome_path = "C:/Program Files/Google/Chrome/Application/chrome.exe %s"
+    webbrowser.get(chrome_path).open(url)
+
+# 要打开的网页URL
+webpage_url = "https://www.google.com"
+
+# 调用函数打开网页
+open_chrome(webpage_url)
